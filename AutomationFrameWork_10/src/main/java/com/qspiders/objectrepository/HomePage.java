@@ -14,8 +14,13 @@ public class HomePage {
 	 private WebElement computersLink;
 	@FindBy(partialLinkText="JEWELRY")
 	 private WebElement jewelryLink;
+	@FindBy(partialLinkText="ELECTRONICS")
+	 private WebElement electronicsLink;
 	
-	
+
+	public WebElement getElectronicsLink() {
+		return electronicsLink;
+	}
 
 	public HomePage(WebDriver driver) {
 		// TODO Auto-generated constructor stub
