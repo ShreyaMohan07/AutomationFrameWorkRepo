@@ -13,4 +13,10 @@ public void launch() {
 	System.out.println("login");
 	//a
 }
+
+@Test
+public void SampleTest() {
+	System.out.println("executing launch");
+}
+
 }
