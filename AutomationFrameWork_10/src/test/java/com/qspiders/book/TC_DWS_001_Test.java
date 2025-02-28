@@ -6,13 +6,10 @@ public class TC_DWS_001_Test {
 @Test
 public void launch() {
 	System.out.println("executing launch");
+	
+	System.out.println("open Browser");
+	System.out.println("navigate to url");
+	System.out.println("give UN,PSWD");
+	System.out.println("login");
 }
-
-@Test
-public void sampleTest() {
-	System.out.println("sampletest executing");
-	System.out.println("sampletest executing");
-}
-
-
 }
