@@ -7,4 +7,12 @@ public class TC_DWS_001_Test {
 public void launch() {
 	System.out.println("executing launch");
 }
+
+@Test
+public void sampleTest() {
+	System.out.println("sampletest executing");
+	System.out.println("sampletest executing");
+}
+
+
 }

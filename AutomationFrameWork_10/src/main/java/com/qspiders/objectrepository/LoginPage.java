@@ -12,6 +12,7 @@ public class LoginPage {
 	private WebElement passwordtextfield;
 	@FindBy(xpath="//input[@value='Log in']")
 	private WebElement loginButton;
+	
 	public LoginPage(WebDriver driver) {
 		// TODO Auto-generated constructor stub
 		PageFactory.initElements(driver,this);
