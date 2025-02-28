@@ -12,7 +12,11 @@ public class HomePage {
 	 private WebElement booksLink;
 	@FindBy(partialLinkText="COMPUTERS")
 	 private WebElement computersLink;
+	@FindBy(partialLinkText="JEWELRY")
+	 private WebElement jewelryLink;
 	
+	
+
 	public HomePage(WebDriver driver) {
 		// TODO Auto-generated constructor stub
 		PageFactory.initElements(driver,this);
@@ -29,4 +33,7 @@ public class HomePage {
 	public WebElement getComputersLink() {
 		return computersLink;
 }
+	public WebElement getJewelryLink() {
+		return jewelryLink;
+	}
 }
